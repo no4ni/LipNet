@@ -13,7 +13,7 @@ import os
 np.random.seed(55)
 
 if getattr(sys, 'frozen', False):
-	os.path.join(sys._MEIPASS, 'LipNet','evaluation')
+	CURRENT_PATH = os.path.join(sys._MEIPASS, 'LipNet','evaluation')
 else: 
 	CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
