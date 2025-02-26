@@ -5,7 +5,7 @@ Soft developed for 1 scene without cuts<br>
 Currently pre-trained models know few words and only English<br>
 ![LipNet performing prediction (subtitle alignment only for visualization)](assets/lipreading.gif)
 
-Build for Windows 7+:<br>
+**Build for Windows 7+**:<br>
 Required:
 - Nvidia GPU
 - Install [CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive) (exactly this version in the default path) (without Visual Studio Integration, Nsight Compute)
@@ -16,7 +16,7 @@ Required:
 - Install [FFmpeg](https://www.ffmpeg.org/download.html#build-windows) in C:\ffmpeg\
 
 Install:
-- Download this repo, extract
+- Download [this repo](https://github.com/no4ni/LipNet/archive/refs/heads/master.zip), extract
 - 2GB free space on this disk
 - Reboot
 - Run install.bat as Administrator (don't touch keyboard and mouse while installing)
@@ -37,7 +37,7 @@ MIT License
 В настоящее время предварительно обученные модели знают несколько слов и только английский<br>
 ![LipNet выполняет прогнозирование (выравнивание субтитров только для визуализации)](assets/lipreading.gif)
 
-Сборка для Windows 7+:<br>
+**Сборка для Windows 7+**:<br>
 Требуется:
 - Nvidia GPU
 - Установите [CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive) (именно эту версию в путь по умолчанию) (без интеграции Visual Studio, Nsight Compute)
@@ -48,7 +48,7 @@ MIT License
 - Установите [FFmpeg](https://www.ffmpeg.org/download.html#build-windows) в C:\ffmpeg\
 
 Установка:
-- Загрузите этот репозиторий, извлеките
+- Загрузите [этот репозиторий](https://github.com/no4ni/LipNet/archive/refs/heads/master.zip), извлеките
 - 2 ГБ свободного места на этом диске
 - Перезагрузите
 - Запустите install.bat от имени администратора (не трогайте клавиатуру и мышь во время установки)
