@@ -5,7 +5,7 @@ Soft developed for 1 scene without cuts<br>
 Currently pre-trained models know few words and only English<br>
 ![LipNet performing prediction (subtitle alignment only for visualization)](assets/lipreading.gif)
 
-Build for Windows 7+:
+Build for Windows 7+:<br>
 Required:
 - Nvidia GPU
 - Install [CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive) (exactly this version in the default path) (without Visual Studio Integration, Nsight Compute)
@@ -37,7 +37,7 @@ MIT License
 В настоящее время предварительно обученные модели знают несколько слов и только английский<br>
 ![LipNet выполняет прогнозирование (выравнивание субтитров только для визуализации)](assets/lipreading.gif)
 
-Сборка для Windows 7+:
+Сборка для Windows 7+:<br>
 Требуется:
 - Nvidia GPU
 - Установите [CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive) (именно эту версию в путь по умолчанию) (без интеграции Visual Studio, Nsight Compute)
