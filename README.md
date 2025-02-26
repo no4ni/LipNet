@@ -8,12 +8,12 @@ Currently pre-trained models know few words and only English<br>
 Build for Windows 7+:
 Required:
 - Nvidia GPU
-- Install CUDA 10.0 (this version in the default path) (without Visual Studio Integration, Nsight Compute)
-- Install cuDNN 7.6.3 for CUDA 10.0 (this version in the default path)
-- Install Python 3.6.8 (this version is) (with option Add Python to PATH)
-- Install Visual Studio Community 2022
+- Install [CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive) (exactly this version in the default path) (without Visual Studio Integration, Nsight Compute)
+- Install [cuDNN 7.6.3 for CUDA 10.0](https://developer.nvidia.com/rdp/cudnn-archive) (exactly this version in the default path)
+- Install [Python 3.6.8](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64-webinstall.exe) (exactly this version) (with option Add Python to PATH)
+- Install [Visual Studio 2017+](https://visualstudio.microsoft.com/ru/vs/community/)
 - Select in Visual Studio Installer (Workloads: Desktop development with C++, Individual components: Windows SDK (your version))
-- Install FFmpeg in C:\ffmpeg\
+- Install [FFmpeg](https://www.ffmpeg.org/download.html#build-windows) in C:\ffmpeg\
 
 Install:
 - Download this repo, extract
@@ -40,12 +40,12 @@ MIT License
 Сборка для Windows 7+:
 Требуется:
 - Nvidia GPU
-- Установите CUDA 10.0 (именно эту версию в путь по умолчанию) (без интеграции Visual Studio, Nsight Compute)
-- Установите cuDNN 7.6.3 для CUDA 10.0 (именно эту версию в путь по умолчанию)
-- Установите Python 3.6.8 (именно эту версию) (с опцией Добавить Python в PATH)
-- Установите Visual Studio Community 2022
+- Установите [CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive) (именно эту версию в путь по умолчанию) (без интеграции Visual Studio, Nsight Compute)
+- Установите [cuDNN 7.6.3 for CUDA 10.0](https://developer.nvidia.com/rdp/cudnn-archive) (именно эту версию в путь по умолчанию)
+- Установите [Python 3.6.8](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64-webinstall.exe) (именно эту версию) (с опцией Добавить Python в PATH)
+- Установите [Visual Studio 2017+](https://visualstudio.microsoft.com/ru/vs/community/)
 - Выберите и установите в Visual Studio Installer (рабочие нагрузки: разработка настольных приложений с использованием C++, отдельные компоненты: Windows SDK (ваша версия))
-- Установите FFmpeg в C:\ffmpeg\
+- Установите [FFmpeg](https://www.ffmpeg.org/download.html#build-windows) в C:\ffmpeg\
 
 Установка:
 - Загрузите этот репозиторий, извлеките
