@@ -1,4 +1,4 @@
-[English]
+[English] <a href="#russian">Русский</a>
 # LipNet: End-to-End Sentence-level Lipreading
 Keras implementation of the method described in the paper 'LipNet: End-to-End Sentence-level Lipreading' by Yannis M. Assael, Brendan Shillingford, Shimon Whiteson, and Nando de Freitas (https://arxiv.org/abs/1611.01599) based on https://github.com/rizkiarm/LipNet.
 Soft developed for 1 scene without cuts<br>
@@ -29,7 +29,7 @@ Run:
 
 ## License
 MIT License
-
+<br id="russian"></br>
 [Русский]
 # LipNet: сквозное чтение по губам на уровне предложений
 Реализация Keras метода, описанного в статье «LipNet: сквозное чтение по губам на уровне предложений» Янниса М. Ассаэля, Брендана Шиллингфорда, Шимона Уайтсона и Нандо де Фрейтаса (https://arxiv.org/abs/1611.01599) на основе https://github.com/rizkiarm/LipNet.
