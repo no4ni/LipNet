@@ -12,7 +12,10 @@ import os
 
 np.random.seed(55)
 
-CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
+if getattr(sys, 'frozen', False):
+	os.path.join(sys._MEIPASS, 'LipNet','evaluation')
+else: 
+	CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 FACE_PREDICTOR_PATH = os.path.join(CURRENT_PATH,'..','common','predictors','shape_predictor_68_face_landmarks.dat')
 
