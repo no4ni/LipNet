@@ -5,6 +5,9 @@ Soft developed for 1 scene without cuts<br>
 Currently pre-trained models know few words and only English<br>
 ![LipNet performing prediction (subtitle alignment only for visualization)](assets/lipreading.gif)
 
+For users on Windows: [release](https://github.com/no4ni/LipNet/releases)
+
+For developers:
 **Build for Windows 7+**:<br>
 Required:
 - Nvidia GPU
@@ -37,6 +40,9 @@ MIT License
 В настоящее время предварительно обученные модели знают несколько слов и только английский<br>
 ![LipNet выполняет прогнозирование (выравнивание субтитров только для визуализации)](assets/lipreading.gif)
 
+Для пользователей на Windows: [Релиз](https://github.com/no4ni/LipNet/releases)
+
+Для разработчиков:
 **Сборка для Windows 7+**:<br>
 Требуется:
 - Nvidia GPU
