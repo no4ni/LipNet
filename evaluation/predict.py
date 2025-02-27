@@ -13,7 +13,7 @@ import os
 np.random.seed(55)
 
 if getattr(sys, 'frozen', False):
-	CURRENT_PATH = os.path.join(sys._MEIPASS, 'LipNet','evaluation')
+	CURRENT_PATH = os.path.join(sys._MEIPASS, 'common')
 else: 
 	CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
@@ -25,6 +25,10 @@ PREDICT_DICTIONARY  = os.path.join(CURRENT_PATH,'..','common','dictionaries','gr
 
 def predict(weight_path, video_path, absolute_max_string_len=32, output_size=28):
     print("\nLoading data from disk...")
+	
+    if getattr(sys, 'frozen', False):  
+        weight_path = os.path.join(sys._MEIPASS, weight_path)
+		
     video = Video(vtype='face', face_predictor_path=FACE_PREDICTOR_PATH)
     if os.path.isfile(video_path):
         video.from_video(video_path)
