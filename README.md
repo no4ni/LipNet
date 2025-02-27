@@ -40,7 +40,7 @@ MIT License
 В настоящее время предварительно обученные модели знают несколько слов и только английский<br>
 ![LipNet выполняет прогнозирование (выравнивание субтитров только для визуализации)](assets/lipreading.gif)
 
-Для пользователей на Windows: [release](https://github.com/no4ni/LipNet/releases)
+Для пользователей на Windows: [Релиз](https://github.com/no4ni/LipNet/releases)
 
 Для разработчиков:
 **Сборка для Windows 7+**:<br>
